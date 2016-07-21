@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		919037961D409F1400FAEACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919037951D409F1400FAEACA /* AppDelegate.swift */; };
+		919037981D409F1400FAEACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919037971D409F1400FAEACA /* ViewController.swift */; };
+		9190379B1D409F1400FAEACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919037991D409F1400FAEACA /* Main.storyboard */; };
+		9190379D1D409F1400FAEACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9190379C1D409F1400FAEACA /* Assets.xcassets */; };
+		919037A01D409F1400FAEACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9190379E1D409F1400FAEACA /* LaunchScreen.storyboard */; };
+		919037AB1D409F1400FAEACA /* KuveytTurk_HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919037AA1D409F1400FAEACA /* KuveytTurk_HackathonTests.swift */; };
+		919037B61D409F1400FAEACA /* KuveytTurk_HackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919037B51D409F1400FAEACA /* KuveytTurk_HackathonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		919037A71D409F1400FAEACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9190378A1D409F1400FAEACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919037911D409F1400FAEACA;
+			remoteInfo = "KuveytTurk Hackathon";
+		};
+		919037B21D409F1400FAEACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9190378A1D409F1400FAEACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 919037911D409F1400FAEACA;
+			remoteInfo = "KuveytTurk Hackathon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		919037921D409F1400FAEACA /* KuveytTurk Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KuveytTurk Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919037951D409F1400FAEACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		919037971D409F1400FAEACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9190379A1D409F1400FAEACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9190379C1D409F1400FAEACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9190379F1D409F1400FAEACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919037A11D409F1400FAEACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919037A61D409F1400FAEACA /* KuveytTurk HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KuveytTurk HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919037AA1D409F1400FAEACA /* KuveytTurk_HackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuveytTurk_HackathonTests.swift; sourceTree = "<group>"; };
+		919037AC1D409F1400FAEACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919037B11D409F1400FAEACA /* KuveytTurk HackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KuveytTurk HackathonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		919037B51D409F1400FAEACA /* KuveytTurk_HackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuveytTurk_HackathonUITests.swift; sourceTree = "<group>"; };
+		919037B71D409F1400FAEACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9190378F1D409F1400FAEACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919037A31D409F1400FAEACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919037AE1D409F1400FAEACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		919037891D409F1400FAEACA = {
+			isa = PBXGroup;
+			children = (
+				919037941D409F1400FAEACA /* KuveytTurk Hackathon */,
+				919037A91D409F1400FAEACA /* KuveytTurk HackathonTests */,
+				919037B41D409F1400FAEACA /* KuveytTurk HackathonUITests */,
+				919037931D409F1400FAEACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		919037931D409F1400FAEACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				919037921D409F1400FAEACA /* KuveytTurk Hackathon.app */,
+				919037A61D409F1400FAEACA /* KuveytTurk HackathonTests.xctest */,
+				919037B11D409F1400FAEACA /* KuveytTurk HackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		919037941D409F1400FAEACA /* KuveytTurk Hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				919037951D409F1400FAEACA /* AppDelegate.swift */,
+				919037971D409F1400FAEACA /* ViewController.swift */,
+				919037991D409F1400FAEACA /* Main.storyboard */,
+				9190379C1D409F1400FAEACA /* Assets.xcassets */,
+				9190379E1D409F1400FAEACA /* LaunchScreen.storyboard */,
+				919037A11D409F1400FAEACA /* Info.plist */,
+			);
+			path = "KuveytTurk Hackathon";
+			sourceTree = "<group>";
+		};
+		919037A91D409F1400FAEACA /* KuveytTurk HackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				919037AA1D409F1400FAEACA /* KuveytTurk_HackathonTests.swift */,
+				919037AC1D409F1400FAEACA /* Info.plist */,
+			);
+			path = "KuveytTurk HackathonTests";
+			sourceTree = "<group>";
+		};
+		919037B41D409F1400FAEACA /* KuveytTurk HackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				919037B51D409F1400FAEACA /* KuveytTurk_HackathonUITests.swift */,
+				919037B71D409F1400FAEACA /* Info.plist */,
+			);
+			path = "KuveytTurk HackathonUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		919037911D409F1400FAEACA /* KuveytTurk Hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919037BA1D409F1400FAEACA /* Build configuration list for PBXNativeTarget "KuveytTurk Hackathon" */;
+			buildPhases = (
+				9190378E1D409F1400FAEACA /* Sources */,
+				9190378F1D409F1400FAEACA /* Frameworks */,
+				919037901D409F1400FAEACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KuveytTurk Hackathon";
+			productName = "KuveytTurk Hackathon";
+			productReference = 919037921D409F1400FAEACA /* KuveytTurk Hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		919037A51D409F1400FAEACA /* KuveytTurk HackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919037BD1D409F1400FAEACA /* Build configuration list for PBXNativeTarget "KuveytTurk HackathonTests" */;
+			buildPhases = (
+				919037A21D409F1400FAEACA /* Sources */,
+				919037A31D409F1400FAEACA /* Frameworks */,
+				919037A41D409F1400FAEACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919037A81D409F1400FAEACA /* PBXTargetDependency */,
+			);
+			name = "KuveytTurk HackathonTests";
+			productName = "KuveytTurk HackathonTests";
+			productReference = 919037A61D409F1400FAEACA /* KuveytTurk HackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		919037B01D409F1400FAEACA /* KuveytTurk HackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 919037C01D409F1400FAEACA /* Build configuration list for PBXNativeTarget "KuveytTurk HackathonUITests" */;
+			buildPhases = (
+				919037AD1D409F1400FAEACA /* Sources */,
+				919037AE1D409F1400FAEACA /* Frameworks */,
+				919037AF1D409F1400FAEACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				919037B31D409F1400FAEACA /* PBXTargetDependency */,
+			);
+			name = "KuveytTurk HackathonUITests";
+			productName = "KuveytTurk HackathonUITests";
+			productReference = 919037B11D409F1400FAEACA /* KuveytTurk HackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9190378A1D409F1400FAEACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kuveyttürk Katılım Bankası A.Ş";
+				TargetAttributes = {
+					919037911D409F1400FAEACA = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					919037A51D409F1400FAEACA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 919037911D409F1400FAEACA;
+					};
+					919037B01D409F1400FAEACA = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 919037911D409F1400FAEACA;
+					};
+				};
+			};
+			buildConfigurationList = 9190378D1D409F1400FAEACA /* Build configuration list for PBXProject "KuveytTurk Hackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 919037891D409F1400FAEACA;
+			productRefGroup = 919037931D409F1400FAEACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				919037911D409F1400FAEACA /* KuveytTurk Hackathon */,
+				919037A51D409F1400FAEACA /* KuveytTurk HackathonTests */,
+				919037B01D409F1400FAEACA /* KuveytTurk HackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		919037901D409F1400FAEACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919037A01D409F1400FAEACA /* LaunchScreen.storyboard in Resources */,
+				9190379D1D409F1400FAEACA /* Assets.xcassets in Resources */,
+				9190379B1D409F1400FAEACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919037A41D409F1400FAEACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919037AF1D409F1400FAEACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9190378E1D409F1400FAEACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919037981D409F1400FAEACA /* ViewController.swift in Sources */,
+				919037961D409F1400FAEACA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919037A21D409F1400FAEACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919037AB1D409F1400FAEACA /* KuveytTurk_HackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919037AD1D409F1400FAEACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				919037B61D409F1400FAEACA /* KuveytTurk_HackathonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		919037A81D409F1400FAEACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919037911D409F1400FAEACA /* KuveytTurk Hackathon */;
+			targetProxy = 919037A71D409F1400FAEACA /* PBXContainerItemProxy */;
+		};
+		919037B31D409F1400FAEACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 919037911D409F1400FAEACA /* KuveytTurk Hackathon */;
+			targetProxy = 919037B21D409F1400FAEACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		919037991D409F1400FAEACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9190379A1D409F1400FAEACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9190379E1D409F1400FAEACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9190379F1D409F1400FAEACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		919037B81D409F1400FAEACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		919037B91D409F1400FAEACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		919037BB1D409F1400FAEACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KuveytTurk Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KT.KuveytTurk-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		919037BC1D409F1400FAEACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "KuveytTurk Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KT.KuveytTurk-Hackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		919037BE1D409F1400FAEACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KuveytTurk HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KT.KuveytTurk-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KuveytTurk Hackathon.app/KuveytTurk Hackathon";
+			};
+			name = Debug;
+		};
+		919037BF1D409F1400FAEACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "KuveytTurk HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KT.KuveytTurk-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KuveytTurk Hackathon.app/KuveytTurk Hackathon";
+			};
+			name = Release;
+		};
+		919037C11D409F1400FAEACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KuveytTurk HackathonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KT.KuveytTurk-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KuveytTurk Hackathon";
+			};
+			name = Debug;
+		};
+		919037C21D409F1400FAEACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KuveytTurk HackathonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KT.KuveytTurk-HackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "KuveytTurk Hackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9190378D1D409F1400FAEACA /* Build configuration list for PBXProject "KuveytTurk Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919037B81D409F1400FAEACA /* Debug */,
+				919037B91D409F1400FAEACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		919037BA1D409F1400FAEACA /* Build configuration list for PBXNativeTarget "KuveytTurk Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919037BB1D409F1400FAEACA /* Debug */,
+				919037BC1D409F1400FAEACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		919037BD1D409F1400FAEACA /* Build configuration list for PBXNativeTarget "KuveytTurk HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919037BE1D409F1400FAEACA /* Debug */,
+				919037BF1D409F1400FAEACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		919037C01D409F1400FAEACA /* Build configuration list for PBXNativeTarget "KuveytTurk HackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				919037C11D409F1400FAEACA /* Debug */,
+				919037C21D409F1400FAEACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9190378A1D409F1400FAEACA /* Project object */;
+}
